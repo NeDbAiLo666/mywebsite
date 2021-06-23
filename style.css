@@ -1,76 +1,105 @@
-    * {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Fira Sans', sans-serif;
-    margin: 0;
-}
-
-header {
-    background-color: rgb(74, 102, 102);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-a {
-    color: black;
-    margin: 30px;
-    text-decoration: none;
-}
-
-.contact {
-    color: rgb(96, 119, 55);
-    background-color: rgb(0, 0, 0);
-    padding: 12px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.contact:hover {
-    background-color: rgb(43, 42, 42);
-    transform: scale(1.1);
-}
-
-button {
-    font-family: 'Fira Sans', sans-serif;
-    background-color: darkolivegreen;
-    color: darkgray;
-    padding: 12px 30px;
-    border-radius: 8px;
-    border: none;
-}
-
-main {
-    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(207, 180, 24, 0.609)), url(sunset.jpg);
-    background-size: cover;
-    min-height: 70vh;
-    color: azure;
-    text-align: center;
-    padding-top: 70px;
-}
-
-h1 {
-    margin: o;
-    font-size: 60px;
-}
-
-aside {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-div {
-    border: rgb(63, 85, 24) 2px solid;
-    width: 30%;
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(147, 189, 79);
-}
-
-footer {
-    background-color: rgb(155, 212, 163);
-    color: rgb(84, 133, 84);
+                                                        * {
+                                                            box-sizing: border-box;
+                                                        }
+                                                        
+                                                        body {
+                                                            font-family: 'Fira Sans', sans-serif;
+                                                            margin: 0;
+                                                        }
+                                                        
+                                                        header {
+                                                            background-color: rgb(74, 102, 102);
+                                                            display: flex;
+                                                            justify-content: space-around;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        a {
+                                                            color: black;
+                                                            margin: 30px;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .contact {
+                                                            color: rgb(96, 119, 55);
+                                                            background-color: rgb(0, 0, 0);
+                                                            padding: 12px 30px;
+                                                            border-radius: 8px;
+                                                            text-decoration: none;
+                                                            transition: 0.5s;
+                                                        }
+                                                        
+                                                        .contact:hover {
+                                                            background-color: rgb(43, 42, 42);
+                                                            transform: scale(1.1);
+                                                        }
+                                                        
+                                                        button {
+                                                            font-family: 'Fira Sans', sans-serif;
+                                                            background-color: darkolivegreen;
+                                                            color: darkgray;
+                                                            padding: 12px 30px;
+                                                            border-radius: 8px;
+                                                            border: none;
+                                                        }
+                                                        
+                                                        main {
+                                                            background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(207, 180, 24, 0.609)), url(sunset.jpg);
+                                                            background-size: cover;
+                                                            min-height: 70vh;
+                                                            color: azure;
+                                                            text-align: center;
+                                                            padding-top: 70px;
+                                                            padding-bottom: 50px;
+                                                        }
+                                                        
+                                                        h1 {
+                                                            margin: o;
+                                                            font-size: 60px;
+                                                        }
+                                                        
+                                                        aside {
+                                                            display: flex;
+                                                            justify-content: space-around;
+                                                            padding: 50px;
+                                                        }
+                                                        
+                                                        div {
+                                                            border: rgb(63, 85, 24) 2px solid;
+                                                            width: 30%;
+                                                            padding: 20px;
+                                                            text-align: center;
+                                                            background-color: rgb(147, 189, 79);
+                                                        }
+                                                        
+                                                        footer {
+                                                            background-color: rgb(155, 212, 163);
+                                                            color: rgb(72, 153, 72);
+                                                            padding: 30px;
+                                                        }
+                                                        
+                                                        @media(max-width: 500px) {
+                                                            header {
+                                                                display: block;
+                                                                padding: 15px 5px;
+                                                            }
+                                                            header a {
+                                                                display: inline-block;
+                                                            }
+                                                            h1 {
+                                                                font-size: 40px;
+                                                            }
+                                                            .descr {
+                                                                font-size: 20px;
+                                                            }
+                                                            aside {
+                                                                display: block;
+                                                            }
+                                                            div {
+                                                                width: 90%;
+                                                                margin: 10px auto;
+                                                            }
+                                                            img {
+                                                                max-width: 100%;
+                                                            }
+                                                        }
