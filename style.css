@@ -1,3 +1,7 @@
+    * {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
@@ -52,3 +56,21 @@ h1 {
     margin: o;
     font-size: 60px;
 }
+
+aside {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+div {
+    border: rgb(63, 85, 24) 2px solid;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(147, 189, 79);
+}
+
+footer {
+    background-color: rgb(155, 212, 163);
+    color: rgb(84, 133, 84);
